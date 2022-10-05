@@ -1,0 +1,39 @@
+@import '~include-media/dist/include-media';
+@import '~open-color/open-color';
+
+
+.Instargram{
+    display: grid;
+    grid-template-columns: 220px auto;
+}
+
+.SideMenu {
+    display: flex;
+    
+    .logo {
+        width: 100px;
+    }
+}
+.Main{
+    display: grid;
+    grid-template-columns: auto 470px 350px;
+    grid-template-rows: 120px auto;
+    grid-template-areas: 
+    ". header left"
+    ". contents ."
+    ". contents .";
+
+    .grid {
+        .center-top{
+            grid-area: header;
+            
+        }
+        .center {
+            grid-area: contents;
+        }
+        .side-left {
+            grid-area: left;
+            
+        }
+    }
+}
