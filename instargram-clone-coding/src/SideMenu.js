@@ -32,6 +32,10 @@ function SideMenu(){
                     <img src="img/profile1.jpeg" className="profile"/>
                     <div>프로필</div>
                 </div>
+                <div className="addIcon">
+                    <img src=""/>
+                    <div>더 보기</div>
+                </div>
             </div>
         </div>
     )
