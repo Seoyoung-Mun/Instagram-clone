@@ -1,6 +1,7 @@
+
 import SideMenu from "./SideMenu";
 import Main from "./Main";
-import './Instargram.scss';
+import './styles/Instargram.scss';
 
 function Instargram() {
     

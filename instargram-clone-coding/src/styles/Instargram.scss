@@ -1,0 +1,74 @@
+@import '~include-media/dist/include-media';
+@import '~open-color/open-color';
+
+body {
+    margin: 0;
+}
+.Instargram{
+    display: grid;
+    grid-template-columns: 220px auto;
+    
+    .grid_center {
+        border-left: 1px solid rgb(180, 177, 177);
+    }
+}
+.profile {
+    border-radius: 70%;
+}
+.SideMenu {
+    height: auto;
+    padding: 8px 12px 20px 12px;
+    // display: flex;
+    
+    position: relative;
+    .logo_wrap{
+        align-items: center;
+        position: relative;
+        padding: 25px 0 16px 12px;
+        margin-bottom: 19px;
+        .logo {
+            width: 100px;
+        }
+    }
+    .SideMenu_wrap {
+        width : auto;
+        height: 95vh;
+        position: relative;
+        .Icon_wrap {
+            display: flex;
+            margin: 16px 0;
+            padding: 12px;
+        }
+        img{
+            width: 24px;
+            height: 24px;
+            margin-right: 16px;
+        }
+    }
+    
+}
+
+
+.Main{
+    display: grid;
+    grid-template-columns: auto 470px 350px;
+    grid-template-rows: 120px auto auto;
+    grid-template-areas: 
+    ". header left"
+    ". contents left"
+    ". contents .";
+    background-color: #efefef;
+
+        .center-top{
+            grid-area: header;
+            
+        }
+        .center {
+            grid-area: contents;
+        }
+        .side-left {
+            grid-area: left;
+            
+        }
+    
+}

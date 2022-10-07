@@ -9,11 +9,11 @@ function Main() {
 
     return(
         <div className="Main">
-            <div className="grid center-top"><StoryBar></StoryBar></div>
+            <div className="center-top"><StoryBar></StoryBar></div>
 
-            <div className="grid center"><Contents></Contents></div>
+            <div className="center"><Contents></Contents></div>
 
-            <div className="grid side-left"><Profiles></Profiles></div>
+            <div className="side-left"><Profiles></Profiles></div>
         </div>
     );
 }
