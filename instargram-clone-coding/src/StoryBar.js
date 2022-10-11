@@ -8,7 +8,7 @@ function StoryBar(){
             <HorizontalScroll className="scroll" reverseScroll={true}>
                 
             </HorizontalScroll>
-            인친 프로필
+            Story Bar Component
             <ProfileIcon />
         </div>
     );
