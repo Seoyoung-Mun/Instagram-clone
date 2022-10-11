@@ -1,11 +1,11 @@
-import Instargram from "./Instargram";
+import Instagram from "./Instagram";
 // import './App.css';
 
 
 function App() {
   return (
     <div>
-      <Instargram />
+      <Instagram />
     </div>
   );
 }

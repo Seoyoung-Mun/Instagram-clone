@@ -1,9 +1,9 @@
 
 import SideMenu from "./SideMenu";
 import Main from "./Main";
-import './styles/Instargram.scss';
+import './styles/Instagram.scss';
 
-function Instargram() {
+function Instagram() {
     
     return(
         <div className="Instargram">
@@ -13,4 +13,4 @@ function Instargram() {
     );
 }
 
-export default Instargram;
+export default Instagram;
