@@ -1,9 +1,11 @@
 import './styles/ProfileIcon.scss';
 
-function ProfileIcon () {
-
+function ProfileIcon (props) {
+    const { iconSize, storyBorder, image } = props;
+    
+    
     return (
-        <div></div>
+        <div className='profileIcon'></div>
     )
 }
 
