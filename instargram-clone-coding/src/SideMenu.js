@@ -1,4 +1,5 @@
 import ProfileIcon from "./ProfileIcon";
+import image from "./images/profile1.jpeg";
 
 function SideMenu(){
 
@@ -16,6 +17,10 @@ function SideMenu(){
                 </div>
                 <div className="Icon_wrap">
                     <img src="img/search.png"  alt="search"/>
+                    <div>검색</div>
+                </div>
+                <div className="Icon_wrap">
+                    <img src="img/compass.png"  alt="compass"/>
                     <div>탐색 탭</div>
                 </div>
                 <div className="Icon_wrap">
@@ -31,15 +36,14 @@ function SideMenu(){
                     <div>만들기</div>
                 </div>
                 <div className="Icon_wrap">
-                    <ProfileIcon />
                     <img src="img/profile1.jpeg" alt="profile" className="profile"/>
                     <div>프로필</div>
                 </div>
             </div>
 
             <div className="addIcon">
-                <img src="img/home.png" alt="menu"/>
-                <div>더 보기 이미지</div>
+                <img src="img/menu.png" alt="menu"/>
+                <div>더 보기</div>
             </div>
 
             </div>

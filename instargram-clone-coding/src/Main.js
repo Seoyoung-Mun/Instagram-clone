@@ -9,9 +9,10 @@ function Main() {
 
     return(
         <div className="Main">
-            <div className="center-top"><StoryBar></StoryBar></div>
-
-            <div className="center"><Contents></Contents></div>
+            <div className="center">
+                <StoryBar></StoryBar>
+                <Contents></Contents>
+            </div>
 
             <div className="side-left"><Profiles></Profiles></div>
         </div>

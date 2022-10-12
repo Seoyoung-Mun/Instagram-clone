@@ -22,7 +22,7 @@ body {
     height: auto;
     padding: 8px 12px 20px 12px;
     display: grid;
-    grid-template-rows: 73px 82vh 48px;
+    grid-template-rows: 73px 80vh 48px;
     
     position: relative;
     .logo_wrap{
@@ -42,12 +42,16 @@ body {
             display: flex;
             margin: 16px 0;
             padding: 12px;
+            img{
+                width: 24px;
+                height: 24px;
+                margin-right: 16px;
+            }
+            .profile {
+                border-radius: 50%;
+            }
         }
-        img{
-            width: 24px;
-            height: 24px;
-            margin-right: 16px;
-        }
+        
     }
     .addIcon {
         position: relative;
@@ -65,22 +69,24 @@ body {
 
 .Main{
     display: grid;
-    grid-template-columns: auto 470px 350px;
-    grid-template-rows: 120px auto auto;
+    grid-template-columns: auto 500px 320px auto; 
+    // grid-template-rows: 120px auto;
     grid-template-areas: 
-    ". story profile"
-    ". contents profile"
-    ". contents .";
+    // ". center profile ."
+    ". center profile ."
+    ". center . .";
     background-color: #efefef;
 
-        .center-top{
-            grid-area: story;
+        // .center-top{
+        //     grid-area: story;
             
-        }
+        // }
         .center {
-            grid-area: contents;
-            height: 90vh; //기본적인 배치 정렬 후 다시 작업
-
+            display: grid;
+            grid-area: center;
+            height: 100vh; //기본적인 배치 정렬 후 다시 작업
+            grid-template-rows: 120px auto;
+            
         }
         .side-left {
             grid-area: profile;

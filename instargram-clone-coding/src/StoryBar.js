@@ -1,15 +1,20 @@
 import ProfileIcon from "./ProfileIcon";
 import HorizontalScroll from 'react-horizontal-scrolling';
+import "./styles/StoryBar.scss";
 
 function StoryBar(){
 
     return(
-        <div>
-            <HorizontalScroll className="scroll" reverseScroll={true}>
-                
-            </HorizontalScroll>
-            Story Bar Component
-            <ProfileIcon />
+        <div className="StoryBar">
+            <div className="StoryBar_wrap">
+                <HorizontalScroll className="scroll" reverseScroll={true}>
+                    <ProfileIcon iconSize="big" storyBorder={true}/>
+                    <ProfileIcon iconSize="big" storyBorder={true}/>
+                    <ProfileIcon iconSize="big" storyBorder={true}/>
+                    <ProfileIcon iconSize="big" storyBorder={true}/>
+                    <ProfileIcon iconSize="big" storyBorder={true}/>
+                </HorizontalScroll>
+            </div>
         </div>
     );
 }
