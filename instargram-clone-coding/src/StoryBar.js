@@ -8,11 +8,12 @@ function StoryBar(){
         <div className="StoryBar">
             <div className="StoryBar_wrap">
                 <HorizontalScroll className="scroll" reverseScroll={true}>
-                    <ProfileIcon iconSize="big" storyBorder={true}/>
-                    <ProfileIcon iconSize="big" storyBorder={true}/>
-                    <ProfileIcon iconSize="big" storyBorder={true}/>
-                    <ProfileIcon iconSize="big" storyBorder={true}/>
-                    <ProfileIcon iconSize="big" storyBorder={true}/>
+                    <div className="Story"><ProfileIcon iconSize="big" storyBorder={true}/></div>
+                    <div className="Story"><ProfileIcon iconSize="big" storyBorder={true}/></div>
+                    <div className="Story"><ProfileIcon iconSize="big" storyBorder={true}/></div>
+                    <div className="Story"><ProfileIcon iconSize="big" storyBorder={true}/></div>
+                    <div className="Story"><ProfileIcon iconSize="big" storyBorder={true}/></div>
+                    <div className="Story"><ProfileIcon iconSize="big" storyBorder={true}/></div>
                 </HorizontalScroll>
             </div>
         </div>
