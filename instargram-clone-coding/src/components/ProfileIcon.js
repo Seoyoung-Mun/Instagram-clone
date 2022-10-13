@@ -13,6 +13,7 @@ function ProfileIcon (props) {
     let randomId = getRandomInt(1, 70);
 
     let profileImage = image ? image : `https://i.pravatar.cc/150?img=${randomId}`;
+    
     return (
 
             <div className={storyBorder ? "storyBorder" : ""}>

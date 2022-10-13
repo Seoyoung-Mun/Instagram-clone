@@ -20,7 +20,7 @@ function SideProfiles (){
                         // 안되면 수정하기
                         iconSize="big" 
                         image={image}
-                    />
+                    /> 
                     <Suggestions />
                     <Footer />
                     {/* <ProfileIcon iconSize="big" image={image} storyBorder={true}/> */}
