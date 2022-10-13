@@ -76,19 +76,20 @@ a {
 
 
 .Main{
+    // 
     display: grid;
     grid-template-columns: auto 500px 320px auto; 
     grid-template-areas: 
     // ". center profile ."
-    ". center profile ."
-    ". center . .";
+    ". center profile .";
+    // ". center . .";
     background-color: $background-grey;
         .center {
-            display: grid;
+            // display: grid;
             grid-area: center;
             height: 100vh; //기본적인 배치 정렬 후 다시 작업
-            // grid-template-rows: 120px auto;
-            
+            // grid-template-rows: auto auto;
+            margin: 10px 32px 0 0;
         }
         .side-left {
             grid-area: profile;

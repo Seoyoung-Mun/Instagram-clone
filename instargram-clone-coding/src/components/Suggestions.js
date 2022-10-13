@@ -1,3 +1,5 @@
+import "../styles/Suggestions.scss";
+
 function Suggestions () {
     return (
         <div>

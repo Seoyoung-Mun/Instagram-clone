@@ -1,0 +1,21 @@
+@import "./properties";
+
+.Profile {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin: 16px 0 10px;
+    img{
+        margin-right: 12px;
+    }
+    .textContainer {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+
+        .accountName{
+            font-weight: 500;
+            margin-bottom: 5px;
+        }
+    }
+} 
