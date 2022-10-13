@@ -6,14 +6,12 @@ function StoryBar(){
 
     return(
         <div className="StoryBar">
-            <div>
+
             <HorizontalScroll className="scroll" reverseScroll={true}>
-            {/* className="scroll" reverseScroll={true} */}
-            {/* {renderStory} */}
                 <Story /><Story /><Story /><Story /><Story />
                 <Story /><Story /><Story /><Story /><Story />
             </HorizontalScroll>
-            </div>
+
         </div>
     );
 }

@@ -1,18 +1,16 @@
 @import './properties';
 
-.Story {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 10px 6px;
 
-    &:first-child {
-        margin-left: 6px;
-    }
-    &:last-child {
-        margin-right: 6px;
-    }
-    .accountName {
-        font-size: 12px;
-    }
-}
+
+    
+    .Story {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px 6px;
+        
+        .accountName {
+            font-size: 12px;
+        }
+    } 
+
