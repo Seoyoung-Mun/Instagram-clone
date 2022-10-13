@@ -1,5 +1,9 @@
+import Sticky from "react-sticky-el";
 import ProfileIcon from "./ProfileIcon";
-import image from "../images/profile1.jpeg"
+import Profile from "./Profile";
+import Suggestions from "./Suggestions";
+import Footer from "./Footer";
+import image from "../images/profile1.jpeg";
 import '../styles/SideProfiles.scss';
 
 function SideProfiles (){
@@ -7,7 +11,7 @@ function SideProfiles (){
     return(
         <div>
             <ProfileIcon iconSize="big" image={image} storyBorder={true}/>
-            여기는 Profile
+            
         </div>
     );
 }
