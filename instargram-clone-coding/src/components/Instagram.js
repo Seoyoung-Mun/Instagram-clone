@@ -1,7 +1,7 @@
 
 import SideMenu from "./SideMenu";
 import Main from "./Main";
-import './styles/Instagram.scss';
+import '../styles/Instagram.scss';
 
 function Instagram() {
     

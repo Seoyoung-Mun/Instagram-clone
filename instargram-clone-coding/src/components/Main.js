@@ -1,7 +1,7 @@
 
 import StoryBar from "./StoryBar";
 import Contents from "./Contents";
-import Profiles from "./Profiles";
+import SideProfiles from "./SideProfiles";
 
 
 
@@ -14,7 +14,7 @@ function Main() {
                 <Contents></Contents>
             </div>
 
-            <div className="side-left"><Profiles></Profiles></div>
+            <div className="side-left"><SideProfiles></SideProfiles></div>
         </div>
     );
 }

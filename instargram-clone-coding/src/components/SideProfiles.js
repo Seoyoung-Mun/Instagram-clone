@@ -1,6 +1,8 @@
 import ProfileIcon from "./ProfileIcon";
-import image from "./images/profile1.jpeg"
-function Profiles (){
+import image from "../images/profile1.jpeg"
+import '../styles/SideProfiles.scss';
+
+function SideProfiles (){
 
     return(
         <div>
@@ -10,4 +12,4 @@ function Profiles (){
     );
 }
 
-export default Profiles;
+export default SideProfiles;

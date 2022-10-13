@@ -1,6 +1,3 @@
-import ProfileIcon from "./ProfileIcon";
-import image from "./images/profile1.jpeg";
-
 function SideMenu(){
 
     return(
