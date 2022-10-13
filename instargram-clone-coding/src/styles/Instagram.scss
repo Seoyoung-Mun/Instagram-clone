@@ -1,15 +1,23 @@
 @import '~include-media/dist/include-media';
 @import '~open-color/open-color';
+@import '../styles/properties';
 
 body {
     margin: 0;
 }
+
+a {
+    text-decoration: none;
+    color: $link-color;
+    font-size: 0.9em;
+    font-weight: 500;
+}
 .Instargram{
     display: grid;
-    grid-template-columns: 220px auto;
+    grid-template-columns: 245px auto;
     
     .grid_center {
-        border-left: 1px solid rgb(180, 177, 177);
+        border-left: 1px solid $border-color-grey;
     }
     .grid_left {
         height: 100vh;
@@ -70,22 +78,16 @@ body {
 .Main{
     display: grid;
     grid-template-columns: auto 500px 320px auto; 
-    // grid-template-rows: 120px auto;
     grid-template-areas: 
     // ". center profile ."
     ". center profile ."
     ". center . .";
-    background-color: #efefef;
-
-        // .center-top{
-        //     grid-area: story;
-            
-        // }
+    background-color: $background-grey;
         .center {
             display: grid;
             grid-area: center;
             height: 100vh; //기본적인 배치 정렬 후 다시 작업
-            grid-template-rows: 120px auto;
+            // grid-template-rows: 120px auto;
             
         }
         .side-left {

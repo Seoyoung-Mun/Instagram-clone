@@ -11,7 +11,10 @@ function Story (){
     }
 
     return (
-        <div className='Story'></div>
+        <div className='Story'>
+            <ProfileIcon iconSize="big" storyBorder={true}/>
+            <span className='accountName'>{accountName}</span>
+        </div>
     );
 }
 

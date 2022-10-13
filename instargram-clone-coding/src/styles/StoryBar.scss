@@ -1,14 +1,23 @@
+@import '../styles/properties';
+
 .StoryBar {
+    display: flex;
+    align-content: center;
+    background-color: white;
     width: 470px;
+    height: 90px;
     
     border-radius: 8px;
-    border: 1px solid  rgb(180, 177, 177);
-    background-color: white;
+    border: 1px solid  $border-color-grey;
+
     margin: 25px 0 0 16px;
-    padding: 16px 0;
+    padding: 12px 0;
     
-    .Story {
-        margin: 0 6px;
-    }
+    overflow: hidden;
 }
 
+@media only screen and (max-width: 640px) {
+    .Story {
+        margin: 0 0 26px 0;
+    }
+}
