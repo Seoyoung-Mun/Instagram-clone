@@ -1,0 +1,19 @@
+@import './properties';
+
+.Suggestions {
+    margin-top: 10px;
+    
+    .titleContainer {
+        display: flex;
+        justify-content: space-between;
+        font-size: 14px;
+        font-weight: 500;
+        color: $font-color-secondary;
+        margin: 10px 0;
+
+        a {
+            text-align: right;
+            color: black;
+        }
+    }
+}

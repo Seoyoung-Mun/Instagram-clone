@@ -4,18 +4,36 @@
     display: flex;
     align-items: center;
     font-size: 14px;
-    margin: 16px 0 10px;
+    // margin: 16px 0 10px;
+    padding: 8px 0 ;
     img{
         margin-right: 12px;
     }
     .textContainer {
         display: flex;
+        flex-grow: 1;
         flex-direction: column;
         margin-left: 0;
+        
 
         .accountName{
-            font-weight: 500;
+            font-weight: 600;
             margin-bottom: 5px;
+            
+            &:hover {
+                cursor: pointer;
+            }
         }
+
+        .caption {
+            color: $font-color-secondary;
+
+            &.small {
+                font-size: 12px;
+            }
+        }
+    }
+    a {
+        text-align: left;
     }
 } 
